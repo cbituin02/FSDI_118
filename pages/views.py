@@ -18,3 +18,6 @@ class SignUpPageView(TemplateView):
 
 class CartPageView(TemplateView):
     template_name = "cart.html"
+
+class ProfileEditPageView(TemplateView):
+    template_name = "ProfileEdit.html"
