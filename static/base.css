@@ -104,8 +104,8 @@ html{
 }
 
 .hamburger{
-    height: 2rem;
-    width: 2rem;
+    height: 5rem;
+    width: 5rem;
     display: none;
 }
 
@@ -156,7 +156,7 @@ html{
 }
 
 .menu-bg-header{
-    height: -50vh;
+    height: -55vh;
 }
 
 .menu-bg {
@@ -358,6 +358,88 @@ html{
     font-size: 20px;
     font-weight: 600;
     color: #202020;
+}
+
+.Header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Heading{
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #2F3841;
+}
+.Action{
+font-size: 14px;
+font-family: "Open Sans";
+font-weight: 600;
+color: #E44C4C;
+cursor: pointer;
+border-bottom: 1px solid #E44C4C;
+}
+
+.Cart-Items{
+margin: auto;
+width: 90%;
+height: 30%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.image-box{
+width: 15%;
+text-align: center;
+}
+.about{
+height: 100%;
+}
+.title{
+padding-top: 5px;
+line-height: 10px;
+font-size: 32px;
+font-family: "Open Sans";
+font-weight: 800;
+color: #202020;
+}
+.subtitle{
+line-height: 10px;
+font-size: 18px;
+font-family: "Open Sans";
+font-weight: 600;
+color: #909090;
+}
+
+.prices{
+height: 100%;
+text-align: right;
+}
+.amount{
+padding-top: 20px;
+font-size: 26px;
+font-family: "Open Sans";
+font-weight: 800;
+color: #202020;
+}
+.save{
+padding-top: 5px;
+font-size: 14px;
+font-family: "Open Sans";
+font-weight: 600;
+color: #1687d9;
+cursor: pointer;
+}
+.remove{
+padding-top: 5px;
+font-size: 14px;
+font-family: "Open Sans";
+font-weight: 600;
+color: #E44C4C;
+cursor: pointer;
 }
 
 /* Edit Profile */

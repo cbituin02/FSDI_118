@@ -1,0 +1,1 @@
+This project was supposed to be a online food ordering system. User should have been able to easily checkout as a guest or create an account within our system. Savving previous orders would have been an option, and choosing delivery or pick up would have been an option too.
